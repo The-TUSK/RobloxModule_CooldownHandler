@@ -1,5 +1,5 @@
 # RobloxModule_CooldownHandler
-A module for easy handling of cooldowns for roblox games.
+A module for easy handling of cooldowns for roblox games. (Place the script below to another module then call the functions from a server script).
 
 
 Example for using the module.
@@ -10,7 +10,7 @@ module.Equip = function(player)
 end)
 
 module.UnEquip = function(player)
-  --setting Equipped to true
+  --setting Equipped to false
   CooldownModule.SetEquippedFunc(player.UserId, false)
 end)
 
