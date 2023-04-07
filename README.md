@@ -1,5 +1,5 @@
 # RobloxModule_CooldownHandler
-A module for easy handling of cooldowns for roblox games. (Place the script below to another module then call the functions from a server script).
+A module for easy handling of cooldowns for roblox games.
 
 
 Example for using the module.
