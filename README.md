@@ -3,7 +3,7 @@ A module for easy handling of cooldowns for roblox games.
 
 
 Example for using the module.
-```
+```lua
 -------------PLACE THIS CODE IN A SERVER SCRIPT
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Remote = game:GetService("ReplicatedStorage").WeaponRemotes:WaitForChild("RemoteEvent")
@@ -50,7 +50,7 @@ Remote.OnServerEvent:Connect(function(player, Action)
 end)
 ```
 
-```
+```lua
 --------------PLACE THIS CODE IN A MODULE
 --Equip
 module.Equip = function(player)
