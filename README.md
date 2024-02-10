@@ -1,6 +1,5 @@
 # RobloxModule_CooldownHandler
-A module for easy handling of cooldowns for roblox games.
-
+A module for easy handling of cooldowns for roblox games.  You need experience with Module Scripts and Remote Events to use this script.  Experience Level: Intermediate
 
 Example for using the module.
 ```lua
